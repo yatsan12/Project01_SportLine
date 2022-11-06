@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "704868500779",
+    "firebase_url": "https://chatroom-51256.firebaseio.com",
+    "project_id": "chatroom-51256",
+    "storage_bucket": "chatroom-51256.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704868500779:android:9f671694c30bbd7180316e",
+        "android_client_info": {
+          "package_name": "com.luseen.spacenavigationview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704868500779-uppifc8plfkumursup2s1oceqg072alc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASJH7nveXKCH2w2CAy4pDgjGJUNGeyh08"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704868500779-uppifc8plfkumursup2s1oceqg072alc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704868500779:android:075e8a67e462e6e280316e",
+        "android_client_info": {
+          "package_name": "ttu.mis.lr0816"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704868500779-eum4r1q6eng5d5nip1l02s8irorsknnl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ttu.mis.lr0816",
+            "certificate_hash": "85e78ee6dae9b36adb342186f0ea47eadd0236d2"
+          }
+        },
+        {
+          "client_id": "704868500779-uppifc8plfkumursup2s1oceqg072alc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASJH7nveXKCH2w2CAy4pDgjGJUNGeyh08"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704868500779-uppifc8plfkumursup2s1oceqg072alc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

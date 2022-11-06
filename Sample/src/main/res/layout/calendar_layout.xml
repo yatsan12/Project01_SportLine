@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/calendar_date"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/previousBtn"
+            android:layout_width="40dp"
+            android:layout_height="36dp"
+            android:layout_margin="10dp"
+            android:background="@mipmap/left_arrow1" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="Date"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_margin="15dp"
+            android:typeface="monospace"/>
+
+        <ImageButton
+            android:id="@+id/nextBtn"
+            android:layout_width="40dp"
+            android:layout_height="36dp"
+            android:layout_margin="10dp"
+            android:background="@mipmap/right_arrow" />
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#F0FFF0"
+        android:orientation="horizontal"
+        android:paddingTop="1dp"
+        android:paddingBottom="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:gravity="center"
+
+
+            android:text="週日"
+            android:typeface="monospace"
+            android:textColor="#43CD88"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:text="週一"
+            android:typeface="monospace"
+            android:textColor="#43cd80"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:text="週二"
+            android:typeface="monospace"
+            android:textColor="#43cd80"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:text="週三"
+            android:textColor="#43cd80"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:text="週四"
+            android:typeface="monospace"
+            android:textColor="#43cd80"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:text="週五"
+            android:typeface="monospace"
+            android:textColor="#43cd80"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:text="週六"
+            android:typeface="monospace"
+            android:textColor="#43cd80"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="626dp"
+        android:background="#F0F0F0"
+        android:numColumns="7">
+    </GridView>
+
+</LinearLayout>

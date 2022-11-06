@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/newlogo1" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:paddingLeft="20dp"
+        android:layout_marginRight="32dp"
+        android:background="@drawable/blur"
+        android:drawableLeft="@drawable/ic_action_email"
+        android:hint="Email"
+        android:textColorHint="#000000"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:typeface="monospace" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/focus"
+        android:drawableLeft="@drawable/ic_action_password"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:textColorHint="#000000"
+        android:typeface="monospace" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/login_btn2"
+        android:text="→"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/forgot_psw"
+        android:text="忘記密碼"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="|"
+            android:padding="20dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            ></TextView>
+
+
+
+    <TextView
+        android:id="@+id/enterregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="註冊帳號"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        ></TextView>
+
+    </LinearLayout>
+</LinearLayout>

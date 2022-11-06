@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="centre_color">#262626</color>
+    <color name="inactive_color">#C7C7C7</color>
+    <color name="whiteNew">#fffffe</color>
+    <color name="google_plus_color">#DC4437</color>
+    <color name="google_plus_background_color">#212121</color>
+    <color name="google_plus_inactive_color">#999999</color>
+    <color name="lightblue">#CEFFCE</color>
+    <color name="yellow">#fd9c06</color>
+    <color name="red">#EE2C2C</color>
+    <color name="grey">#BDBDBD</color>
+    <color name="black">#000000</color>
+    <color name="color_one">#FDE4BB</color>
+    <color name="color_two">#FCD2A1</color>
+    <color name="color_three">#EF8273</color>
+
+
+    <color name="green">@android:color/holo_green_dark</color>
+    <color name="green1">#FFFFFF</color>
+    <color name="purple">#B8A1CF</color>
+
+
+
+</resources>

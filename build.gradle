@@ -1,0 +1,23 @@
+
+buildscript {
+    repositories {
+        jcenter()
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.0.2'
+        classpath 'com.novoda:bintray-release:0.8.0'
+        classpath 'com.google.gms:google-services:4.3.4'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        google()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

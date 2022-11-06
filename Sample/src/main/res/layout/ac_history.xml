@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#43cd80"
+    android:orientation="vertical">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#43CD80"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+    <!--    <LinearLayout-->
+    <!--        android:id="@+id/layout_titlebar"-->
+    <!--        android:layout_width="150dp"-->
+    <!--        android:layout_height="48dp"-->
+    <!--        android:background="@color/colorPrimary"-->
+    <!--        android:fitsSystemWindows="true"-->
+    <!--        android:layout_gravity="center"-->
+    <!--        android:orientation="horizontal">-->
+
+    <!--        <TextView-->
+    <!--            android:layout_width="50dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_gravity="center"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:background="@drawable/highlights"-->
+    <!--            android:gravity="center_horizontal"-->
+    <!--            android:padding="10dp"-->
+    <!--            android:text="歷史紀錄"-->
+    <!--            android:textColor="#000000"-->
+    <!--            android:textSize="18sp" />-->
+
+    <!--    </LinearLayout>-->
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/history_pic"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"></ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:orientation="vertical"
+        android:background="#fff"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="運動紀錄 〉"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"></TextView>
+
+        <ListView
+            android:id="@+id/lv"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="20dp"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/runner4"></ImageView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.luseen.spacenavigation.SpaceNavigationView
+            android:id="@+id/space"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            app:centre_part_linear="false"
+            app:layout_behavior="com.luseen.spacenavigation.SpaceNavigationViewBehavior" />
+    </RelativeLayout>
+
+</LinearLayout>

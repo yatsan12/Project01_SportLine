@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sample/Sample.iml" filepath="$PROJECT_DIR$/.idea/modules/Sample/Sample.iml" group="SportLine/Sample" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SportLine.iml" filepath="$PROJECT_DIR$/.idea/modules/SportLine.iml" group="SportLine" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spacelib/spacelib.iml" filepath="$PROJECT_DIR$/.idea/modules/spacelib/spacelib.iml" group="SportLine/spacelib" />
+    </modules>
+  </component>
+</project>

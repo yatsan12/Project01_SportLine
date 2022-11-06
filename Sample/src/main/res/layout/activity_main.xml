@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context="ttu.mis.lr0816.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp"
+        tools:ignore="MissingConstraints">
+
+        <!--    <TextView-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:gravity="center"-->
+        <!--        android:text="Welcome-->
+        <!--        SportLine!"-->
+        <!--        android:textSize="32dp"-->
+        <!--        android:textColor="#fff"-->
+        <!--        android:typeface="monospace"-->
+        <!--        android:layout_margin="25dp"-->
+        <!--        android:textStyle="bold"/>-->
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@drawable/logo99" />
+
+        <Button
+            android:layout_width="380dp"
+            android:layout_height="50dp"
+            android:text="register"
+            android:id="@+id/register"
+            android:background="@drawable/login_btn"
+            android:layout_gravity="center"
+            android:typeface="monospace"
+            android:layout_margin="20dp"
+            android:textColor="#fff"/>
+
+        <Button
+            android:layout_width="380dp"
+            android:layout_height="50dp"
+            android:text="login"
+            android:id="@+id/login"
+            android:typeface="monospace"
+            android:layout_gravity="center"
+            android:background="@drawable/login_btn2"
+            android:textColor="#fff"/>
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="calendar_1.MainCalendarActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#43CD80"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    <calendar_1.MyCalendarView
+        android:id="@+id/calendar_date"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+    </calendar_1.MyCalendarView>
+
+    <com.luseen.spacenavigation.SpaceNavigationView
+        android:id="@+id/space"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        app:centre_part_linear="false"
+        app:layout_behavior="com.luseen.spacenavigation.SpaceNavigationViewBehavior" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
